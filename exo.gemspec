@@ -4,8 +4,8 @@ require File.expand_path('../lib/exo/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["SwitchPoint Solutions"]
   gem.email         = ["tbm@switchpt.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Framework on top of backbone}
+  gem.summary       = %q{Framework to go on top of backbone}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
